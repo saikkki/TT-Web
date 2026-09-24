@@ -1,0 +1,52 @@
+[14:24:54] [info] Source   : [4mhttps://diverse-devices-387946.framer.app[24m
+[14:24:54] [info] Output   : [38;2;250;178;131m/Users/matsu/framer-diverse-devices-387946-sharp-bundle-n78u[39m
+[14:24:54] [info] Platform : [38;2;250;178;131mFramer[39m
+[14:24:54] [info] DPR      : [38;2;250;178;131m1[39m
+[14:24:54] [info] Subpages : [38;2;128;128;128mdisabled (pass --subpages to crawl the whole site)[39m
+[14:24:54] [log] Output directory structure created
+[14:24:54] [log] Fetching SSR HTML from https://diverse-devices-387946.framer.app
+[14:24:57] [ok] SSR HTML fetched (269.5 KB)
+[14:24:57] [log] Launching headless Chromium...
+[14:24:58] [ok] Chromium launched
+[14:24:58] [log] Stealth hardening applied (Chrome 153.0.8010.53)
+[14:24:58] [log] Viewport set to 1440x900 at 1x DPR
+[14:24:58] [log] Blocking 8 tracking domains:
+[14:24:58] [log]   - sentry.io
+[14:24:58] [log]   - www.googletagmanager.com
+[14:24:58] [log]   - connect.facebook.net
+[14:24:58] [log]   - stats.g.doubleclick.net
+[14:24:58] [log]   - google-analytics.com
+[14:24:58] [log]   - events.framer.com
+[14:24:58] [log]   - api.framer.com
+[14:24:58] [log]   - collect.frameranalytics.com
+[14:24:58] [log] Network interception enabled
+[14:24:58] [info] Navigating to https://diverse-devices-387946.framer.app
+[14:25:00] [ok] Document loaded; waiting for page content and resources
+[14:25:00] [log] Intercepted 0 resources, blocked 0 tracking requests, skipped 0 platform assets
+[14:25:00] [log] Checking DOM-based platform detection...
+[14:25:01] [log] Hydration content found: #main
+[14:25:13] [log] Network idle timeout reached (continuing anyway)
+[14:25:13] [log] Waiting for font layout and response bodies
+[14:25:28] [log] Response body timeout; remaining assets will use the downloader
+[14:25:28] [log] Resources settled
+[14:25:38] [log] Response body timeout; remaining assets will use the downloader
+[14:25:38] [log] Captured HTML and CSSOM (268.7 KB)
+[14:25:38] [ok] Captured 63 network resources total
+[14:25:38] [log]   CSS: 5 | JS: 11 | Images: 7 | Fonts: 37
+[14:25:38] [log] Browser closed
+[14:25:38] [ok] Queued 59 resource(s) declared in HTML but never requested
+[14:25:38] [log] Starting download of 123 assets and their CSS/HTML dependencies
+[14:25:44] [ok] Downloads complete: 679 succeeded, 63 from cache
+[14:25:47] [ok] Lazy-loaded chunks resolved: 14
+[14:25:47] [log] Starting HTML post-processing...
+[14:25:47] [log] HTML size: 268.7 KB
+[14:25:47] [ok] Index HTML pipeline complete
+[14:25:47] [log] Rewrote URLs in 14 JS/CSS files
+[14:25:47] [ok] Captured asset URLs rewritten to local paths
+[14:25:49] [ok] Formatted 25/25 JS/MJS files
+[14:25:49] [log] Writing index.html (276.6 KB)...
+[14:25:49] [ok] index.html written
+[14:25:49] [log] serve.js written
+[14:25:49] [log] package.json written for serve.js
+[14:25:49] [ok] Output build complete
+[14:25:49] [ok] Export complete!
