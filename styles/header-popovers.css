@@ -1,0 +1,21 @@
+/* Transparent closed panels must not enlarge their button's hover area. */
+.framer-AXI2E .framer-exthoq,
+.framer-537db .framer-pswz3d {
+  visibility: hidden;
+  pointer-events: none;
+}
+.framer-AXI2E.framer-v-wr2yps .framer-exthoq,
+.framer-537db.framer-v-e6fhr7 .framer-pswz3d {
+  visibility: visible;
+  pointer-events: auto;
+}
+/* Bridge the small gap only after the button has opened its panel. */
+.framer-AXI2E.framer-v-wr2yps::before,
+.framer-537db.framer-v-e6fhr7::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 12px;
+}

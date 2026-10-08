@@ -1,0 +1,55 @@
+/* Titles are shared by the static export and hydrated page, mobile only. */
+.tt-mobile-video-title { display: none; }
+
+@media (max-width: 639.98px) {
+  .framer-OPdDt .framer-s5hda4 { gap: 24px; }
+  .framer-OPdDt .framer-nb5b7x {
+    position: relative;
+    top: auto;
+  }
+  .framer-OPdDt .framer-18esnft-container,
+  .framer-OPdDt .framer-1k6gx89 { display: none; }
+  .framer-OPdDt .framer-2ps20u {
+    gap: 16px;
+    overflow: visible;
+  }
+  .framer-OPdDt .framer-lm2gm7,
+  .framer-OPdDt .framer-158f7zj,
+  .framer-OPdDt .framer-12b4fv3 {
+    height: auto;
+    min-height: 0;
+    justify-content: flex-start;
+    scroll-margin-top: 88px;
+    overflow: visible;
+  }
+  .framer-OPdDt .framer-1up8hre,
+  .framer-OPdDt .framer-17uhjsl,
+  .framer-OPdDt .framer-1hp8hed {
+    padding: 12px;
+    gap: 12px;
+    background: #f3f6ff;
+    border: 1px solid #e0e6f1;
+    border-radius: 16px;
+    box-shadow: none;
+  }
+  .framer-OPdDt .tt-mobile-video-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+    color: #14171c;
+    font-family: "Noto Sans SC", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.45;
+  }
+  .framer-OPdDt .tt-mobile-video-title::before {
+    content: "";
+    flex: 0 0 3px;
+    width: 3px;
+    height: 16px;
+    border-radius: 3px;
+    background: #316cff;
+  }
+}

@@ -1,0 +1,37 @@
+/* Keep the desktop composition between tablet and the original desktop width. */
+@media (min-width: 990.01px) and (max-width: 1199.98px) {
+  .framer-OPdDt .framer-16a3qv7,
+  .framer-OPdDt .framer-s5hda4,
+  .framer-OPdDt .framer-ci4jnh {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .framer-OPdDt .framer-16a3qv7 { gap: 24px; }
+  .framer-OPdDt .framer-7gqbi7 { width: 28%; }
+  .framer-OPdDt .framer-l1zhld { width: 100%; }
+  .framer-OPdDt .framer-1nbsnmo { flex: 1; min-width: 0; gap: 16px; }
+  .framer-OPdDt .framer-60x0gq,
+  .framer-OPdDt .framer-144yp9o { flex: 1; min-width: 0; width: 0; }
+  .framer-OPdDt .framer-3x98ul,
+  .framer-OPdDt .framer-e0ii { width: 100%; }
+  .framer-OPdDt .framer-161vx0c { width: 100%; }
+  .framer-OPdDt .framer-1cfk3ae { width: 100%; }
+  .framer-OPdDt .framer-18qhzj5,
+  .framer-OPdDt .framer-98tknn,
+  .framer-OPdDt .framer-7dzp1r,
+  .framer-OPdDt .framer-gu65wy { height: auto; min-height: 218px; }
+}
+
+/* Keep the hero in one row throughout the desktop breakpoint. */
+@media (min-width: 990.01px) {
+  .framer-OPdDt .framer-n14xv {
+    flex-flow: row nowrap;
+    column-gap: clamp(32px, calc(100vw - 1050px), 240px);
+  }
+  .framer-OPdDt .framer-1rdtfje { min-width: 0; }
+}
+
+/* The orb returns in the existing mobile composition below 640px. */
+@media (min-width: 640px) and (max-width: 990px) {
+  .framer-OPdDt .framer-1np1sll-container { display: none; }
+}

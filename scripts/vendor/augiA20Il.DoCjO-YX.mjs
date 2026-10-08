@@ -11,9 +11,9 @@ function r(e, n) {
   return {
     breakpoints: [
       { hash: `72rtr7`, mediaQuery: `(min-width: 1440px)` },
-      { hash: `t4nrt4`, mediaQuery: `(min-width: 1200px) and (max-width: 1439.98px)` },
-      { hash: `19s0we3`, mediaQuery: `(min-width: 768px) and (max-width: 1199.98px)` },
-      { hash: `qtrbr4`, mediaQuery: `(max-width: 767.98px)` },
+      { hash: `t4nrt4`, mediaQuery: `(min-width: 990.01px) and (max-width: 1439.98px)` },
+      { hash: `19s0we3`, mediaQuery: `(min-width: 640px) and (max-width: 990px)` },
+      { hash: `qtrbr4`, mediaQuery: `(max-width: 639.98px)` },
     ],
     description: t(e, n).description,
     elements: {

@@ -1,0 +1,60 @@
+/* Follow the existing scroll-selected Framer variant, desktop/tablet only. */
+@media (min-width: 640px) {
+  .framer-18esnft-container .framer-HzBTq.framer-4xxcyv {
+    gap: 6px;
+    padding: 0 18px 0 14px;
+    overflow: visible;
+  }
+  .framer-18esnft-container .framer-HzBTq::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 3px;
+    height: 16px;
+    border-radius: 3px;
+    background: #316cff;
+    transform: translateY(0);
+    transition: transform 300ms cubic-bezier(.22, 1, .36, 1);
+  }
+  .framer-18esnft-container .framer-HzBTq.framer-v-dx4556::before {
+    transform: translateY(46px);
+  }
+  .framer-18esnft-container .framer-HzBTq.framer-v-bj01u9::before {
+    transform: translateY(92px);
+  }
+  .framer-18esnft-container .framer-HzBTq > div {
+    height: 40px;
+    padding: 5px;
+    justify-content: flex-start;
+    transform-origin: left center;
+    transform: translateX(0);
+    transition: transform 300ms cubic-bezier(.22, 1, .36, 1);
+  }
+  .framer-18esnft-container .framer-HzBTq p,
+  .framer-18esnft-container .framer-HzBTq mark {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #737c8e !important;
+    transition: color 300ms ease, font-size 300ms cubic-bezier(.22, 1, .36, 1);
+  }
+  .framer-18esnft-container .framer-v-4xxcyv > .framer-10lfqhl,
+  .framer-18esnft-container .framer-v-dx4556 > .framer-1tlbg2o,
+  .framer-18esnft-container .framer-v-bj01u9 > .framer-1v391ux {
+    transform: translateX(6px);
+  }
+  .framer-18esnft-container .framer-v-4xxcyv > .framer-10lfqhl :is(p, mark),
+  .framer-18esnft-container .framer-v-dx4556 > .framer-1tlbg2o :is(p, mark),
+  .framer-18esnft-container .framer-v-bj01u9 > .framer-1v391ux :is(p, mark) {
+    font-size: 15.4px !important;
+    color: #316cff !important;
+    font-weight: 700 !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .framer-18esnft-container .framer-HzBTq::before,
+  .framer-18esnft-container .framer-HzBTq > div,
+  .framer-18esnft-container .framer-HzBTq :is(p, mark) {
+    transition: none;
+  }
+}

@@ -1,0 +1,11 @@
+/* Float the whole orb without changing its colors or internal glasses tracking. */
+@keyframes tt-hero-orb-float {
+  0%, 100% { transform: translateY(-5px); }
+  50% { transform: translateY(5px); }
+}
+.framer-OPdDt .framer-1np1sll-container {
+  animation: tt-hero-orb-float 4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .framer-OPdDt .framer-1np1sll-container { animation: none; }
+}
